@@ -7,8 +7,11 @@ namespace TestDB
 {
     internal class Program
     {
+        
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public static void Main(string[] args)
         {
+            log.Info("Hi, I am your logger.");
             Program p = new Program();
             p.Connect();
             p.WriteToDB();
@@ -19,6 +22,7 @@ namespace TestDB
                  Console.WriteLine("idcko "+a.first_name+" je: " + a.actor_id );
              }
              */
+            log.Info("Bye!!!");
         }
 
         private void DeleteDB()
