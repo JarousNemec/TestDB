@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using MySql.Data.MySqlClient;
-
+using System.Configuration;
 namespace TestDB
 {
     internal class Program
@@ -63,9 +63,8 @@ namespace TestDB
         {
             try
             {
-                connection =
-                    new MySqlConnection(
-                        "datasource=localhost;database=exampleapp;port=3306;username=root;password=Heslo123456*");
+                var MySQLConnectionString = ConfigurationSettings.AppSettings["MySQLConnectionString"]; 
+                connection = new MySqlConnection(MySQLConnectionString);
                 connection.Open();
 
                 if (connection.State == ConnectionState.Open)
