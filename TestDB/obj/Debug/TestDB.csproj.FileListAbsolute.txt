@@ -1,0 +1,14 @@
+C:\CSharpFiles\TestDB\TestDB\TestDB\bin\Debug\TestDB.exe
+C:\CSharpFiles\TestDB\TestDB\TestDB\bin\Debug\TestDB.pdb
+C:\CSharpFiles\TestDB\TestDB\TestDB\bin\Debug\MySqlConnector.dll
+C:\CSharpFiles\TestDB\TestDB\TestDB\bin\Debug\OptimizedDataReader.dll
+C:\CSharpFiles\TestDB\TestDB\TestDB\bin\Debug\Savage.Data.dll
+C:\CSharpFiles\TestDB\TestDB\TestDB\bin\Debug\Savage.Data.MySqlClient.dll
+C:\CSharpFiles\TestDB\TestDB\TestDB\bin\Debug\System.Buffers.dll
+C:\CSharpFiles\TestDB\TestDB\TestDB\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\CSharpFiles\TestDB\TestDB\TestDB\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\CSharpFiles\TestDB\TestDB\TestDB\obj\Debug\TestDB.csprojAssemblyReference.cache
+C:\CSharpFiles\TestDB\TestDB\TestDB\obj\Debug\TestDB.csproj.CoreCompileInputs.cache
+C:\CSharpFiles\TestDB\TestDB\TestDB\obj\Debug\TestDB.csproj.CopyComplete
+C:\CSharpFiles\TestDB\TestDB\TestDB\obj\Debug\TestDB.exe
+C:\CSharpFiles\TestDB\TestDB\TestDB\obj\Debug\TestDB.pdb
