@@ -1,21 +1,19 @@
 ﻿using System;
-using System.CodeDom;
 using System.Collections.Generic;
 using System.Data;
 using MySql.Data.MySqlClient;
 using System.Configuration;
-using System.Diagnostics.Eventing.Reader;
-
 namespace TestDB
 {
-    
-    
     internal class Program
     {
+        
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         public static string DB_SCHEMA_NAME = "exampleapp";
         
         public static void Main(string[] args)
         {
+            log.Info("Hi, I am your logger.");
             Program p = new Program();
         }
 
@@ -171,6 +169,7 @@ namespace TestDB
                     Console.WriteLine("error");
                 }
             }
+
             catch (Exception ex)
             {
                 throw ex;
