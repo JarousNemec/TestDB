@@ -13,12 +13,13 @@ namespace TestDB
         
         public static void Main(string[] args)
         {
-            log.Info("Hi, I am your logger.");
+            
             Program p = new Program();
         }
 
         public Program()
         {
+            log.Info("Hi, I am your logger.");
             MySqlConnection connection = openConnectionToDB();
             if (connection == null)
             {
@@ -33,6 +34,7 @@ namespace TestDB
             forceDatabaseName(DB_SCHEMA_NAME, connection);
             WriteToDB(connection);
             DeleteDB(connection);
+            log.Info("Bye.");
         }
 
         private void forceDatabaseName(string dbSchemaName, MySqlConnection connection)
