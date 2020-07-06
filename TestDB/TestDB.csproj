@@ -32,6 +32,7 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="mscorlib" />
         <Reference Include="MySqlConnector, Version=0.30.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92">
           <HintPath>..\packages\MySqlConnector.0.30.0\lib\net46\MySqlConnector.dll</HintPath>
           <Private>True</Private>
@@ -69,6 +70,7 @@
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
+      <None Include="Properties\App.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
