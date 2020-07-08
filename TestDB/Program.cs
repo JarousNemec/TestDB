@@ -13,13 +13,14 @@ namespace TestDB
         
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine(ConfigurationSettings.AppSettings["home"]);
             Program p = new Program();
         }
 
         public Program()
         {
-            log.Info("Hi, I am your logger.");
+            log.Error("Hi, I am your logger.");
+       
             MySqlConnection connection = openConnectionToDB();
             if (connection == null)
             {
